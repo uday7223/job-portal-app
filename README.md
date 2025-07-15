@@ -32,29 +32,6 @@ A simple and responsive job portal built using **core PHP**, **MySQL**, and styl
 
 ---
 
-## 📂 Folder Structure
-
-job-portal-starter/
-├── public/
-│ ├── index.php
-│ ├── job_detail.php
-│ ├── apply.php
-├── admin/
-│ ├── login.php
-│ ├── dashboard.php
-│ ├── add_job.php
-│ ├── edit_job.php
-│ ├── delete_job.php
-│ ├── toggle_status.php
-│ ├── view_applicants.php
-│ ├── logout.php
-├── includes/
-│ └── db.php
-├── uploads/
-│ └── (uploaded resumes go here)
-
-
----
 
 ## 🛠️ Setup Instructions
 
