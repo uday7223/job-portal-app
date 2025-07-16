@@ -17,9 +17,15 @@ nav, footer {
   color: white;
 }
 
+nav{
+    a{
+        color: #E4F1FF !important;
+    }
+}
 
 
-.btn-primary, a {
+
+.btn-primary{
   background-color: #9400FF;
   color: white;
 }
