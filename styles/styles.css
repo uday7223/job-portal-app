@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #E4F1FF;
+}
+
+.card, .form-control, .section-light {
+  background-color: #AED2FF;
+}
+
+header, footer {
+  background-color: #27005D;
+  color: white;
+}
+
+
+
+.btn-primary, a {
+  background-color: #9400FF;
+  color: white;
+}
+
+
+
+.btn-primary:hover {
+  background-color: #27005D;
+  color: #E4F1FF;
+}
+
+
+
+
+
+
+
+
+
+/* main color palletes ends here */
+
+
+.index-main{
+    background-color:  #AED2FF !important;
+    padding-bottom: 1rem !important;
+
+}
+
+.heading{
+        background-color:  #AED2FF !important;
+
+}
+.index-main .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-main  .container .card{
+    max-width: 40%;
+}
+
+

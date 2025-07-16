@@ -52,6 +52,8 @@ if (isset($_POST['submit'])) {
   <title>Apply for Job</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="../styles/mediaQueries.css">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -86,7 +88,7 @@ if (isset($_POST['submit'])) {
 
       <div class="mb-3">
         <label for="phone" class="form-label">Phone Number</label>
-        <input type="text" name="phone" class="form-control" required>
+        <input type="text" name="phone" class="form-control" maxlength="10" required>
       </div>
 
       <div class="mb-3">
