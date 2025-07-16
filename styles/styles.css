@@ -12,7 +12,7 @@ body {
   background-color: #AED2FF;
 }
 
-header, footer {
+nav, footer {
   background-color: #27005D;
   color: white;
 }
@@ -29,6 +29,10 @@ header, footer {
 .btn-primary:hover {
   background-color: #27005D;
   color: #E4F1FF;
+}
+
+nav{
+    background-color: #27005D !important;
 }
 
 
